@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home" android:icon="@drawable/ic_baseline_home_24"  android:id="@+id/homeBottomBar"/>
+    <item android:title="Search" android:icon="@drawable/ic_baseline_search_24" android:id="@+id/searchBottomBar"/>
+    <item
+        android:id="@+id/myGigsBottomBar"
+        android:icon="@drawable/ic_baseline_hexagon_24"
+        android:title="My Posts" />
+    <item android:title="Requests" android:icon="@drawable/ic_baseline_requests_24" android:id="@+id/requestsBottomBar"/>
+    <item android:title="Messages" android:icon="@drawable/ic_baseline_chat_bubble_outline_24" android:id="@+id/chatBottomBar"/>
+</menu>

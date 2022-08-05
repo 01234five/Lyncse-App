@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "550445435227",
+    "project_id": "lyncse-33410",
+    "storage_bucket": "lyncse-33410.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550445435227:android:dbc1835f425cf1fe84f27e",
+        "android_client_info": {
+          "package_name": "com.lyncseapp.lyncse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550445435227-vng2nbvtfnmq134j4g6j2n44umvl740i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJc7KmITnOBQ9QFfNMjITXpFMTVy0nkAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550445435227-vng2nbvtfnmq134j4g6j2n44umvl740i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

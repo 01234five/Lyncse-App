@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewChatViewPost"
+            android:layout_width="397dp"
+            android:layout_height="270dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="#EBEAEA"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayOutProfileChatViewPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/profilePicChatViewPost"
+                android:layout_width="86dp"
+                android:layout_height="85dp"
+
+                android:scaleType="fitCenter"
+                app:shapeAppearanceOverlay="@style/Circular"
+                tools:srcCompat="@color/black" />
+
+            <TextView
+                android:id="@+id/nameChatViewPost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:text="Name"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton2ChatChatViewPost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_weight="0"
+                android:background="#00FFFFFF"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/nameMyVirtualActivityGigSelectedSearch"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_baseline_chat_bubble_24_03dac5" />
+
+            <TextView
+                android:id="@+id/textView7LocationChatViewPost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="textEnd"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                 />
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="#EBEAEA"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/titleChatViewPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Title"
+            android:inputType="textPersonName"
+            android:textColor="#292828"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/gigInfoChatViewPost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:ems="10"
+                    android:hint="Info, ex. Go skateboarding at local park"
+                    android:inputType="textMultiLine|textPersonName"
+                    android:minHeight="150dp"
+                    android:textColor="#292828"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="#EBEAEA"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutChatViewPost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <ToggleButton
+                android:id="@+id/toggleButtonGig1ChatViewPost"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+
+                android:layout_marginTop="12dp"
+                android:layout_weight="1"
+                android:checked="false"
+                android:textColor="@drawable/custom_drawables"
+                android:textOff="$"
+                android:textOn="$"
+                android:textSize="20sp"
+                android:theme="@style/AppTheme.ToggleButton"
+                android:visibility="visible" />
+
+            <ToggleButton
+                android:id="@+id/toggleButtonGig2ChatViewPost"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+
+                android:layout_marginTop="12dp"
+                android:layout_weight="1"
+                android:textColor="@drawable/custom_drawables"
+                android:textOff="$"
+                android:textOn="$"
+                android:textSize="20sp"
+                android:theme="@style/AppTheme.ToggleButton" />
+
+            <ToggleButton
+                android:id="@+id/toggleButtonGig3ChatViewPost"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+
+                android:layout_marginTop="12dp"
+                android:layout_weight="1"
+                android:textColor="@drawable/custom_drawables"
+                android:textOff="$"
+                android:textOn="$"
+                android:textSize="20sp"
+                android:theme="@style/AppTheme.ToggleButton" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gigPriceInfo3ChatViewPost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/gigPriceInfo3PriceGigSelectedSearch"
+
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="horizontal"
+                android:rotationX="0">
+
+                <TextView
+                    android:id="@+id/editTextLengthInfo3PriceChatViewPost"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/gigPriceInfo3LengthChatViewPost"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+
+                android:orientation="horizontal"
+                android:rotationX="0">
+
+                <TextView
+                    android:id="@+id/textViewLengthInfo3LengthChatViewPost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:text="Duration"
+
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/editTextLengthInfo3LengthChatViewPost"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:ems="10"
+                    android:inputType="time"
+                    android:text="0"
+                    android:textAlignment="textEnd"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textViewTime3ChatViewPost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Minutes"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gigPriceInfo2ChatViewPost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/gigPriceInfo2PriceChatViewPost"
+
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="horizontal"
+                android:rotationX="0">
+
+                <TextView
+                    android:id="@+id/editTextLengthInfo2PriceChatViewPost"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/gigPriceInfo2LengthChatViewPost"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+
+                android:orientation="horizontal"
+                android:rotationX="0">
+
+                <TextView
+                    android:id="@+id/textViewLengthInfo2LengthChatViewPost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:text="Duration"
+
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/editTextLengthInfo2LengthChatViewPost"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:ems="10"
+                    android:inputType="time"
+                    android:text="0"
+                    android:textAlignment="textEnd"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textViewTime2ChatViewPost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Minutes"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gigPriceInfo1ChatViewPost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/gigPriceInfo1PriceChatViewPost"
+
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="horizontal"
+                android:rotationX="0">
+
+                <TextView
+                    android:id="@+id/editTextLengthInfo1PriceChatViewPost"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/gigPriceInfo1LengthChatViewPost"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+
+                android:orientation="horizontal"
+                android:rotationX="0">
+
+                <TextView
+                    android:id="@+id/textViewLengthInfo1LengthChatViewPost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:backgroundTint="#00FFFFFF"
+                    android:text="Duration"
+
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/editTextLengthInfo1LengthChatViewPost"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="textEnd"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textViewTime1ChatViewPost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Minutes"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnRequestGigChatViewPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF03DAC5"
+            android:text="REQUEST"
+            android:textColor="#F2F7F7"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </LinearLayout>
+</ScrollView>

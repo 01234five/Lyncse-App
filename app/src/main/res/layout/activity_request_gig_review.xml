@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequestGigReview">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonRequestGigReview"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                tools:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Request Review"
+                android:textColor="#343434"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textViewEURequestGigReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hey (EU),"
+            android:textAlignment="center"
+            android:textColor="#2B2B2B"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/textViewCreatorRequestGigReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="you will be sending a request to (Seller) for:"
+            android:textAlignment="center"
+            android:textColor="#2B2B2B"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#C3C2C2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="#FFFFFF" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardViewRecyclerRequestGigReview"
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+
+            app:cardBackgroundColor="#F8F8F8"
+            app:cardCornerRadius="15dp"
+            app:strokeColor="#D8D8D8"
+            app:strokeWidth="2dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/gigInfoRecyclerRequestGigReview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="77dp"
+
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="4dp"
+
+                    android:gravity="start"
+                    android:paddingLeft="5dp"
+                    android:text="Gig Title"
+                    android:textColor="#DF2F393D"
+                    android:textColorHint="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/imageView2GigImageRequestGigReview"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/textViewPriceRecyclerRequestGigReview"
+                    android:layout_width="89dp"
+                    android:layout_height="44dp"
+                    android:layout_gravity="bottom|end"
+                    android:gravity="center|end"
+                    android:paddingRight="10dp"
+                    android:text="Price"
+                    android:textColor="#DF2F393D"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView2GigImageRequestGigReview"
+                    android:layout_width="179dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+                <TextView
+                    android:id="@+id/textViewGigIdRequestGigReview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:visibility="gone" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="#FFFFFF" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#D8D8D8" />
+
+        <Button
+            android:id="@+id/buttonSendRequestActivityRequestGigReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="SEND REQUEST"
+            android:textColor="#F0F5F6"
+            android:textSize="24sp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFD8D8D8" />
+
+        <TextView
+            android:id="@+id/textViewInstructionsRequestGigReview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="This request will be reviewed by (Seller)."
+            android:textColor="#2B2B2B"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewInstrunction2RequestGigReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="If request is accepted, an offer with a open time and date will be sent to you. In the meantime feel free to contact (Seller) and discuss the above request, including available time frames."
+            android:textColor="#2B2B2B"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/flLoad_RequestGigReview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible">
+
+        <ProgressBar
+            android:id="@+id/progressBarRequestGigReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

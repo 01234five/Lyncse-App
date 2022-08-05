@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Virtual" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/frameLayoutBackMyVirtual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutMyVirtual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageButton
+                    android:id="@+id/imageButtonMyVirtual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/ic_baseline_arrow_back_24"
+                    tools:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+                <TextView
+                    android:id="@+id/textView36MyVirtual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="BACK"
+                    android:textSize="24sp"
+                    android:visibility="gone" />
+
+                <com.google.android.material.tabs.TabLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <ScrollView
+            android:id="@+id/scrollViewMyVirtual"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:id="@+id/linearLayoutGigPrices"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginEnd="19dp"
+                        android:orientation="horizontal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/gigInfoMVirtualActivity"
+                        app:layout_constraintVertical_bias="0.0">
+
+                        <ToggleButton
+                            android:id="@+id/toggleButtonGig1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+
+
+                            android:layout_marginTop="12dp"
+                            android:layout_weight="1"
+                            android:checked="false"
+                            android:textColor="@drawable/custom_drawables"
+                            android:textOff="$"
+                            android:textOn="$"
+                            android:textSize="20sp"
+                            android:theme="@style/AppTheme.ToggleButton" />
+
+                        <ToggleButton
+                            android:id="@+id/toggleButtonGig2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+
+
+                            android:layout_marginTop="12dp"
+                            android:layout_weight="1"
+                            android:textColor="@drawable/custom_drawables"
+                            android:textOff="$"
+                            android:textOn="$"
+                            android:textSize="20sp"
+                            android:theme="@style/AppTheme.ToggleButton" />
+
+                        <ToggleButton
+                            android:id="@+id/toggleButtonGig3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+
+
+                            android:layout_marginTop="12dp"
+                            android:layout_weight="1"
+                            android:textColor="@drawable/custom_drawables"
+                            android:textOff="$"
+                            android:textOn="$"
+                            android:textSize="20sp"
+                            android:theme="@style/AppTheme.ToggleButton"
+                            android:visibility="visible" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/gigPriceInfo1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:visibility="visible"
+
+                        app:layout_constraintEnd_toEndOf="parent"
+
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/linearLayoutGigPrices"
+                        app:layout_constraintVertical_bias="0.0">
+
+                        <LinearLayout
+                            android:id="@+id/gigPriceInfo1Price"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="19dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginEnd="19dp"
+                            android:orientation="horizontal"
+                            android:rotationX="0">
+
+                            <TextView
+                                android:id="@+id/textViewLengthInfo1Price"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#00FFFFFF"
+                                android:backgroundTint="#00FFFFFF"
+                                android:text="$"
+                                android:textAlignment="textEnd"
+                                android:textSize="20sp" />
+
+                            <EditText
+                                android:id="@+id/editTextLengthInfo1Price"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="#00FFFFFF"
+                                android:ems="10"
+                                android:hint="0"
+                                android:inputType="numberDecimal"
+                                android:textAlignment="textStart"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/gigPriceInfo1Length"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="19dp"
+                            android:layout_marginEnd="19dp"
+
+                            android:orientation="horizontal"
+                            android:rotationX="0">
+
+                            <TextView
+                                android:id="@+id/textViewLengthInfo1Length"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#00FFFFFF"
+                                android:backgroundTint="#00FFFFFF"
+                                android:text="Duration"
+
+                                android:textSize="20sp" />
+
+                            <EditText
+                                android:id="@+id/editTextLengthInfo1Length"
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#00FFFFFF"
+                                android:ems="10"
+                                android:hint="0"
+                                android:inputType="numberDecimal"
+                                android:textAlignment="textEnd"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/textViewTime1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:text="Minutes"
+                                android:textAlignment="center"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/gigPriceInfo2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/linearLayoutGigPrices"
+                        app:layout_constraintVertical_bias="0.0">
+
+                        <LinearLayout
+                            android:id="@+id/gigPriceInfo2Price"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="19dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginEnd="19dp"
+                            android:orientation="horizontal"
+                            android:rotationX="0">
+
+                            <TextView
+                                android:id="@+id/textViewLengthInfo2Price"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#00FFFFFF"
+                                android:backgroundTint="#00FFFFFF"
+                                android:text="$"
+                                android:textAlignment="textEnd"
+                                android:textSize="20sp" />
+
+                            <EditText
+                                android:id="@+id/editTextLengthInfo2Price"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="#00FFFFFF"
+                                android:ems="10"
+                                android:hint="0"
+                                android:inputType="numberDecimal"
+                                android:textAlignment="textStart"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/gigPriceInfo2Length"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="19dp"
+                            android:layout_marginEnd="19dp"
+
+                            android:orientation="horizontal"
+                            android:rotationX="0">
+
+                            <TextView
+                                android:id="@+id/textViewLengthInfo2Length"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#00FFFFFF"
+                                android:backgroundTint="#00FFFFFF"
+                                android:text="Duration"
+
+                                android:textSize="20sp" />
+
+                            <EditText
+                                android:id="@+id/editTextLengthInfo2Length"
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#00FFFFFF"
+                                android:ems="10"
+                                android:hint="0"
+                                android:inputType="time"
+                                android:textAlignment="textEnd"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/textViewTime2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:text="Minutes"
+                                android:textAlignment="center"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/gigPriceInfo3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/linearLayoutGigPrices"
+                        app:layout_constraintVertical_bias="0.0">
+
+                        <LinearLayout
+                            android:id="@+id/gigPriceInfo3Price"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="65dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="19dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginEnd="19dp"
+                            android:orientation="horizontal"
+                            android:rotationX="0">
+
+                            <TextView
+                                android:id="@+id/textViewLengthInfo3Price"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#00FFFFFF"
+                                android:backgroundTint="#00FFFFFF"
+                                android:text="$"
+                                android:textAlignment="textEnd"
+                                android:textSize="20sp" />
+
+                            <EditText
+                                android:id="@+id/editTextLengthInfo3Price"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="#00FFFFFF"
+                                android:ems="10"
+                                android:hint="0"
+                                android:inputType="numberDecimal"
+                                android:textAlignment="textStart"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/gigPriceInfo3Length"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="19dp"
+                            android:layout_marginEnd="19dp"
+
+                            android:orientation="horizontal"
+                            android:rotationX="0">
+
+                            <TextView
+                                android:id="@+id/textViewLengthInfo3Length"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#00FFFFFF"
+                                android:backgroundTint="#00FFFFFF"
+                                android:text="Duration"
+
+                                android:textSize="20sp" />
+
+                            <EditText
+                                android:id="@+id/editTextLengthInfo3Length"
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#00FFFFFF"
+                                android:ems="10"
+                                android:hint="0"
+                                android:inputType="time"
+                                android:textAlignment="textEnd"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/textViewTime3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:clickable="true"
+                                android:onClick="onClick"
+                                android:text="Minutes"
+                                android:textAlignment="center"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/profilePicMyVirtualActivity"
+                        android:layout_width="86dp"
+                        android:layout_height="85dp"
+                        android:layout_marginTop="16dp"
+                        android:scaleType="fitCenter"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.049"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView"
+                        app:shapeAppearanceOverlay="@style/Circular"
+                        tools:srcCompat="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="397dp"
+                        android:layout_height="270dp"
+                        android:scaleType="centerCrop"
+
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.034"
+                        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+                    <EditText
+                        android:id="@+id/titleMVirtualActivity"
+                        android:layout_width="375dp"
+                        android:layout_height="54dp"
+                        android:layout_marginTop="16dp"
+                        android:ems="10"
+                        android:hint="Title"
+                        android:inputType="textPersonName"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.444"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/profilePicMyVirtualActivity" />
+
+                    <EditText
+                        android:id="@+id/gigInfoMVirtualActivity"
+                        android:layout_width="375dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:ems="10"
+                        android:hint="Info, ex. Play video games online"
+                        android:inputType="textMultiLine|textPersonName"
+                        android:minHeight="150dp"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.444"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/titleMVirtualActivity" />
+
+                    <TextView
+                        android:id="@+id/nameMyVirtualActivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="320dp"
+                        android:text="Name"
+                        android:textSize="20sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.088"
+                        app:layout_constraintStart_toEndOf="@+id/profilePicMyVirtualActivity"
+                        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btnSaveGig"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#FF03DAC5"
+                        android:text="Save"
+                        android:textColor="#FFFFFF"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

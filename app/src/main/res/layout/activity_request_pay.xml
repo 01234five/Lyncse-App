@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".requests.RequestPay">
+
+    <LinearLayout
+        android:id="@+id/llMain_RequestPayActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonRequestPayActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                tools:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+            <TextView
+                android:id="@+id/textView2RequestPayActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Review"
+                android:textColor="#343434"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textViewEURequestGigReviewRequestPayActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hey (EU),"
+            android:textAlignment="center"
+            android:textColor="#2B2B2B"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/textViewCreatorRequestGigReviewRequestPayActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="you will be paying for:"
+            android:textAlignment="center"
+            android:textColor="#2B2B2B"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#C3C2C2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="#FFFFFF" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardViewRecyclerRequestGigReviewRequestPayActivity"
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+
+            app:cardBackgroundColor="#F8F8F8"
+            app:cardCornerRadius="15dp"
+            app:strokeColor="#D8D8D8"
+            app:strokeWidth="2dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/gigInfoRecyclerRequestGigReviewRequestPayActivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="77dp"
+
+                    android:layout_gravity="center|top"
+                    android:layout_marginStart="4dp"
+
+                    android:gravity="start"
+                    android:paddingLeft="5dp"
+                    android:text="Gig Title"
+                    android:textColor="#DF2F393D"
+                    android:textColorHint="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/imageView2GigImageRequestGigReviewRequestPayActivity"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/textViewPriceRecyclerRequestGigReviewRequestPayActivity"
+                    android:layout_width="89dp"
+                    android:layout_height="44dp"
+                    android:layout_gravity="bottom|end"
+                    android:gravity="center|end"
+                    android:paddingRight="10dp"
+                    android:text="Price"
+                    android:textColor="#DF2F393D"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView2GigImageRequestGigReviewRequestPayActivity"
+                    android:layout_width="179dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+                <TextView
+                    android:id="@+id/textViewGigIdRequestGigReviewRequestPayActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:visibility="gone" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="#FFFFFF" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#D8D8D8" />
+
+        <Button
+            android:id="@+id/requestPay_Pay_with_stripe"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pay with Stripe" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#FFD8D8D8" />
+
+        <TextView
+            android:id="@+id/textViewInstrunction2RequestGigReviewRequestPayActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="When payment completed, it will be transferred to ( ) account. You will also receive a receipt via email. You could also view the receipt in the info tab of the post."
+            android:textColor="#2B2B2B" />
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/flLoad_RequestPayActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible">
+
+        <ProgressBar
+            android:id="@+id/progressBarRequestPayActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

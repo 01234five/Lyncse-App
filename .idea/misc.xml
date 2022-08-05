@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/drawable/border1.xml" value="0.207" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/drawable/border_chat_message.xml" value="0.2525" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/drawable/cardviewcolor.xml" value="0.1" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/drawable/custom_drawables.xml" value="0.171" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/drawable/ic_baseline_hexagon_24.xml" value="0.1" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2885" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/drawable/ic_launcher_background.xml" value="0.207" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/activity_chat_gig.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/activity_chat_request_info.xml" value="0.25" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/activity_forgot_password.xml" value="0.2" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/activity_gig_selected_search.xml" value="0.33" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/activity_messenger.xml" value="0.33" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/activity_my_gigs.xml" value="0.25" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/activity_my_virtual.xml" value="0.22" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/activity_register_user.xml" value="0.23324275362318841" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/activity_request_gig_review.xml" value="0.33" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/activity_requests_view.xml" value="0.33" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/activity_search_gigs.xml" value="0.33" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/activity_test.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/activity_user_edit_created_gig.xml" value="0.22" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/activity_user_view_created_gigs.xml" value="0.12078651685393259" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/activity_virtual.xml" value="0.23143115942028986" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/custom_styles.xml" value="0.23324275362318841" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/fragment_blank.xml" value="0.30520833333333336" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/fragment_chat_gig_messages.xml" value="0.22" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/fragment_chat_gig_virtual.xml" value="0.1" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/fragment_home.xml" value="0.30520833333333336" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/fragment_incoming_requests.xml" value="0.22" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/fragment_request_chat.xml" value="0.22" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/fragment_request_info.xml" value="0.1" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/fragment_search_gigs.xml" value="0.30520833333333336" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/fragment_sent_rquests.xml" value="0.22" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/recycler_chat_request_my_message.xml" value="0.33" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/recycler_chat_request_mymessage.xml" value="0.25" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/recycler_chat_request_their_message.xml" value="0.33" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/recycler_messenger.xml" value="0.25" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/recycler_small_card.xml" value="0.30714285714285716" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/recycler_small_card_requests.xml" value="0.5" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/layout/recycler_user_view_created_gigs.xml" value="0.22" />
+        <entry key="..\:/Users/Angel/AndroidStudioProjects/Lyncse/app/src/main/res/menu/bottom_menuhome.xml" value="0.17757009345794392" />
+        <entry key="..\:/Users/Angel/Desktop/Codes/Lyncse/app/src/main/res/layout/activity_profile.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1305" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/drawable/custom_drawables.xml" value="0.1315" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/drawable/ic_baseline_android_200.xml" value="0.1305" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/drawable/ic_baseline_android_24.xml" value="0.1305" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/drawable/ic_baseline_android_242.xml" value="0.1305" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/drawable/ic_baseline_chat_bubble_24_0.xml" value="0.1285" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.148" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/drawable/image_rounded_corner.xml" value="0.195" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_accept_request.xml" value="0.25" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_chat_gig.xml" value="0.19637462235649547" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_chat_request_info.xml" value="0.25" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_chat_view_post.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_confirmation_accepted.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_create_outside.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_create_post.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_created_view.xml" value="0.25" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_gig_selected_search.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_info.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_info_web_viewer.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_inquiries_chat.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_inquiries_view.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_inquiry_accept.xml" value="0.375" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_inquiry_pay.xml" value="0.375" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_messenger.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_my_gigs.xml" value="0.25" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_my_virtual.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_payment_completed.xml" value="0.25" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_policy.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_profile.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_register_user.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_request_accept.xml" value="0.2492753623188406" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_request_gig_review.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_request_pay.xml" value="0.375" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_requests_view.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_require_stripe.xml" value="0.25" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_search.xml" value="0.23243243243243245" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_search_gigs.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_selected_find_request.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_selected_gig_find.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_send_inquiry.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_splash_screen.xml" value="0.125" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_stripe.xml" value="0.23822714681440443" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_test.xml" value="0.1" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_user_edit_created_gig.xml" value="0.25" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_user_view_created_gigs.xml" value="0.1" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_view_created_find_posts.xml" value="0.1" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_virtual.xml" value="0.1" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_web_view_lyncse.xml" value="0.1375" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/activity_web_view_policy.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/fragment_chat_gig_messages.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/fragment_chat_gig_virtual.xml" value="0.24431818181818182" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/fragment_created_view_outside.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/fragment_find_requests_view.xml" value="0.25" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/fragment_incoming_requests.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/fragment_inquiries_chat.xml" value="0.45" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/fragment_inquiries_incoming.xml" value="0.1" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/fragment_inquiries_info.xml" value="0.2492753623188406" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/fragment_inquiries_sent.xml" value="0.1" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/fragment_request_chat.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/fragment_request_info.xml" value="0.375" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/fragment_search.xml" value="0.23822714681440443" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/fragment_sent_rquests.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/fragment_view.xml" value="0.28015075376884424" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/fragment_view_created_find_posts.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/fragment_view_created_virtual.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/recycker_small_card_request_accept.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/recycler_chat_request_my_message.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/recycler_chat_request_their_message.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/recycler_messenger.xml" value="0.375" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/recycler_small_card.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/recycler_small_card_request_p.xml" value="0.25" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/recycler_small_card_requests.xml" value="0.45" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/recycler_user_view_created_gigs.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/temp.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/layout/test.xml" value="0.335" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/menu/bottom_menuhome.xml" value="0.1" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.148" />
+        <entry key="..\:/Users/Angel/Desktop/Lyncse/app/src/main/res/mipmap-anydpi-v26/ic_launcher_custom.xml" value="0.177" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

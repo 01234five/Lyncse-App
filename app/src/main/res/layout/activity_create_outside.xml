@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Outside" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/frameLayoutBackCreateOutside"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutCreateOutside1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageButton
+                    android:id="@+id/imageButtonCreateOutside"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/ic_baseline_arrow_back_24"
+                    tools:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+                <TextView
+                    android:id="@+id/textView36CreateOutside"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="BACK"
+                    android:textSize="24sp"
+                    android:visibility="gone" />
+
+                <com.google.android.material.tabs.TabLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <ScrollView
+            android:id="@+id/scrollViewCreateOutside"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageViewCreateOutside"
+                    android:layout_width="397dp"
+                    android:layout_height="270dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:scaleType="centerCrop"
+                    tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/profilePicCreateOutside"
+                        android:layout_width="86dp"
+                        android:layout_height="85dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitCenter"
+                        app:shapeAppearanceOverlay="@style/Circular"
+                        tools:srcCompat="@color/black" />
+
+                    <TextView
+                        android:id="@+id/nameCreateOutside"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:text="Name"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/titleCreateOutside"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:ems="10"
+                    android:hint="Title"
+                    android:inputType="textPersonName"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/gigInfoCreateOutside"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:ems="10"
+                    android:hint="Info, ex. Go skateboarding at local park"
+                    android:inputType="textMultiLine|textPersonName"
+                    android:minHeight="150dp"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutCreateOutside"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <ToggleButton
+                        android:id="@+id/toggleButtonGig1CreateOutside"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+
+
+                        android:layout_marginTop="12dp"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:textColor="@drawable/custom_drawables"
+                        android:textOff="$"
+                        android:textOn="$"
+                        android:textSize="20sp"
+                        android:theme="@style/AppTheme.ToggleButton"
+                        android:visibility="visible" />
+
+                    <ToggleButton
+                        android:id="@+id/toggleButtonGig2CreateOutside"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+
+
+                        android:layout_marginTop="12dp"
+                        android:layout_weight="1"
+                        android:textColor="@drawable/custom_drawables"
+                        android:textOff="$"
+                        android:textOn="$"
+                        android:textSize="20sp"
+                        android:theme="@style/AppTheme.ToggleButton" />
+
+                    <ToggleButton
+                        android:id="@+id/toggleButtonGig3CreateOutside"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+
+
+                        android:layout_marginTop="12dp"
+                        android:layout_weight="1"
+                        android:textColor="@drawable/custom_drawables"
+                        android:textOff="$"
+                        android:textOn="$"
+                        android:textSize="20sp"
+                        android:theme="@style/AppTheme.ToggleButton" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/gigPriceInfo3CreateOutside"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/gigPriceInfo3PriceCreateOutside"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginEnd="10dp"
+                        android:orientation="horizontal"
+                        android:rotationX="0">
+
+                        <TextView
+                            android:id="@+id/textViewLengthInfo3PriceCreateOutside"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:text="$"
+                            android:textAlignment="textEnd"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/editTextLengthInfo3PriceCreateOutside"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="#00FFFFFF"
+                            android:ems="10"
+                            android:hint="0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="textStart"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/gigPriceInfo3LengthCreateOutside"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+
+                        android:orientation="horizontal"
+                        android:rotationX="0">
+
+                        <TextView
+                            android:id="@+id/textViewLengthInfo3LengthCreateOutside"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:text="Duration"
+
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/editTextLengthInfo3LengthCreateOutside"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#00FFFFFF"
+                            android:ems="10"
+                            android:hint="0"
+                            android:inputType="time"
+                            android:textAlignment="textEnd"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textViewTime3CreateOutside"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="Minutes"
+                            android:textAlignment="center"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/gigPriceInfo2CreateOutside"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/gigPriceInfo2PriceCreateOutside"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginEnd="10dp"
+                        android:orientation="horizontal"
+                        android:rotationX="0">
+
+                        <TextView
+                            android:id="@+id/textViewLengthInfo2PriceCreateOutside"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:text="$"
+                            android:textAlignment="textEnd"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/editTextLengthInfo2PriceCreateOutside"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="#00FFFFFF"
+                            android:ems="10"
+                            android:hint="0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="textStart"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/gigPriceInfo2LengthCreateOutside"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+
+                        android:orientation="horizontal"
+                        android:rotationX="0">
+
+                        <TextView
+                            android:id="@+id/textViewLengthInfo2LengthCreateOutside"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:text="Duration"
+
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/editTextLengthInfo2LengthCreateOutside"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#00FFFFFF"
+                            android:ems="10"
+                            android:hint="0"
+                            android:inputType="time"
+                            android:textAlignment="textEnd"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textViewTime2CreateOutside"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="Minutes"
+                            android:textAlignment="center"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/gigPriceInfo1CreateOutside"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:id="@+id/gigPriceInfo1PriceCreateOutside"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginEnd="10dp"
+                        android:orientation="horizontal"
+                        android:rotationX="0">
+
+                        <TextView
+                            android:id="@+id/textViewLengthInfo1PriceCreateOutside"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:text="$"
+                            android:textAlignment="textEnd"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/editTextLengthInfo1PriceCreateOutside"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="#00FFFFFF"
+                            android:ems="10"
+                            android:hint="0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="textStart"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/gigPriceInfo1LengthCreateOutside"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+
+                        android:orientation="horizontal"
+                        android:rotationX="0">
+
+                        <TextView
+                            android:id="@+id/textViewLengthInfo1LengthCreateOutside"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#00FFFFFF"
+                            android:backgroundTint="#00FFFFFF"
+                            android:text="Duration"
+
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/editTextLengthInfo1LengthCreateOutside"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#00FFFFFF"
+                            android:ems="10"
+                            android:hint="0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="textEnd"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textViewTime1CreateOutside"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:text="Minutes"
+                            android:textAlignment="center"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnSaveGigCreateOutside"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:backgroundTint="#FF03DAC5"
+                    android:text="Save"
+                    android:textColor="#FFFFFF"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

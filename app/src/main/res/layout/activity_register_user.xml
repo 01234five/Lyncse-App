@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUser">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/frameLayoutBackRegisterUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutRegisterUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageButton
+                    android:id="@+id/imageButtonRegisterUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/ic_baseline_arrow_back_24"
+                    tools:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+                <TextView
+                    android:id="@+id/textView36RegisterUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="BACK"
+                    android:textSize="24sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+        </FrameLayout>
+        <ScrollView
+            android:id="@+id/scrollViewRegisterUser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/titleIdBannerRegisterUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView2RegisterUser"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    app:srcCompat="@drawable/logolyncse" />
+
+                <TextView
+                    android:id="@+id/titleIdRegisterUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="LYNCSE"
+                    android:textAlignment="center"
+                    android:textColor="#1E1D1D"
+                    android:textSize="40sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/firstNameRegisterUser"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="textPersonName|text"
+                android:text=""
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/lastNameRegisterUser"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Last Name"
+                android:inputType="textPersonName|text"
+                android:text=""
+                android:textSize="24sp" />
+            <EditText
+                android:id="@+id/ageRegisterUser"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Age"
+                android:inputType="number"
+                android:text=""
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/emailRegisterUser"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:text=""
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/passwordRegisterUser"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:text=""
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/registerUser"
+                android:layout_width="380dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="#0ED6B9"
+                android:text="Register User"
+                android:textColor="#ffffff"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout_RegisterUser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <ProgressBar
+            android:id="@+id/progressBar2RegisterUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            tools:ignore="missingConstraints"
+            tools:visibility="visible" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
