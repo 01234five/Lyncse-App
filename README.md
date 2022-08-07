@@ -28,7 +28,7 @@ Allows users to communicate with each other. Chat by contacting user or by a des
 
 
 
-
+![thumbnail_Screenshot_20220807-072352_Lyncse](https://user-images.githubusercontent.com/83076267/183295489-318bc6c3-9554-41e3-92c3-e783261c555f.jpg)
 ![1](https://user-images.githubusercontent.com/83076267/183293925-ef0ea990-2792-4266-98e6-aebebad8d12c.png)
 ![2](https://user-images.githubusercontent.com/83076267/183293929-604a1b0e-428d-4df3-a5bd-81a066515c71.png)
 ![3](https://user-images.githubusercontent.com/83076267/183293930-ae8bfcfc-4274-403d-bcb4-804beddfc15a.png)
@@ -45,5 +45,5 @@ Allows users to communicate with each other. Chat by contacting user or by a des
 
 
 
-![thumbnail_Screenshot_20220807-072352_Lyncse](https://user-images.githubusercontent.com/83076267/183295489-318bc6c3-9554-41e3-92c3-e783261c555f.jpg)
+
 
