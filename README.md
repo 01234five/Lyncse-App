@@ -41,6 +41,8 @@ Allows users to communicate with each other. Chat by contacting user or by a des
 
 
 
+------------------------------------------------------------------
+
 
 
 ![thumbnail_Screenshot_20220807-072352_Lyncse](https://user-images.githubusercontent.com/83076267/183295489-318bc6c3-9554-41e3-92c3-e783261c555f.jpg)
